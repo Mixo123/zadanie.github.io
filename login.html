@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="strony/html.html">HTML</a></li>
+                <li><a href="strony/css.html">CSS</a></li>
+                <li><a href="strony/js.html">JavaScript</a></li>
+                <li><a href="strony/php.html">PHP</a></li>
+                <li><a href="login.html">Login</li>
+            </ul>
+            <h1 id="logo"><a href="../index.html">Strona przygotowująca do kwalifikacji INF.03</a></h1>
+        </nav>
+     </header>
+
+     <main>
+        <div class="container">
+            <div class="loginPage">
+                <form method="post" class="login">
+                    <h1>Login do Usera</h1>
+                    <label>Login</label>
+                    <input type="text" id="input">
+                    <label>Hasło</label>
+                    <input type="password" id="input">
+                    <label id="ar">Akceptujesz regulamin?</label>
+                    <input type="checkbox" id="checkbox">
+                    <button class="submit">Zaloguj</button>
+                </form>
+            </div>
+
+            <div class="loginPageAdm">
+                <form method="post" class="login">
+                    <h1>Login do Admina</h1>
+                    <label>Login</label>
+                    <input type="text" id="input">
+                    <label>Hasło</label>
+                    <input type="password" id="input">
+                    <label id="ar">Akceptujesz regulamin?</label>
+                    <input type="checkbox" id="checkbox">
+                    <button class="submit">Zaloguj</button>
+                </form>
+            </div>
+        </div>
+     </main>
+
+     <footer>
+        <div class="fot">
+            <p>&copy; 2022 zadanie-na-witryny.pl <b>Michał Grabara 4BP</b></p>
+            <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+        </div>
+     </footer>
+     <script src="app.js"></script>
+</body>
+</html>
